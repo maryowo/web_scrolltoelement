@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- data-st-tagrget 要前往元素的ID名稱-->
+    <!-- data-st-duration 捲動所花的時間(毫秒)-->
+    <nav>
+        <a href="" data-st-tagrget="area1" data-st-duration="1000">連結1</a>
+        <a href="" data-st-tagrget="area2" data-st-duration="2000">連結2</a>
+        <a href="" data-st-tagrget="area3" data-st-duration="3000">連結3</a>
+    </nav>
+    <section id="area1">連結1</section>
+    <section id="area2">連結2</section>
+    <section id="area3">連結3</section>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
