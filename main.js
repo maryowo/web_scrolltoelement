@@ -54,7 +54,7 @@ $(window).scroll(function () {
     // console.log("箭頭特效的時間:" + arrowTime);
     
     // 如果 視窗位置 大於等於 箭頭上方 就 淡入
-    if (windowTop >= arrowTop) arrow.fadeIn(arrowTimeInt);
+    if (windowTop >= arrowTop) arrow.stop().fadeIn(arrowTimeInt);
     // 否則 就 淡出
-    else arrow.fadeOut(arrowTimeInt)
+    else arrow.stop().fadeOut(arrowTimeInt)
 });
