@@ -9,9 +9,9 @@ https://maryowo.github.io/web_scrolltoelement/.
 將 CDN 放在 body 結束標籤前
 https://maryowo.github.io/web_scrolltoelement/main.js
 
-‵‵‵
+````
 <script src="https://maryowo.github.io/web_scrolltoelement/main.js"></script>
-‵‵‵
+````
 
 ## 捲動說明
 屬性名稱 | 屬性說明
